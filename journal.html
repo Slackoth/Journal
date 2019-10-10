@@ -22,7 +22,7 @@
 
                                 <div class="form-group">
                                     <label for="date">Seleccione la fecha:</label>
-                                    <input type="date" name="date" class="custom-control" id="note_date">
+                                    <input type="date" name="date" class="custom-control" id="date_field">
                                 </div>
 
                                 <div class="form-group">
@@ -31,11 +31,20 @@
                                 </div>                    
                     
                                 <div class="form-group">
-                                    <button type="button" class="btn btn-danger" id="submit_btn" disabled>Añadir</button>
+                                    <button type="button" class="btn btn-danger" id="submit_btn" enable>Añadir</button>
                                 </div>
                             </div>
                     
                             <hr>
+                            <section>
+                                <table class="table table-hover">
+                                    <thead id="table_head">
+                                    </thead>
+                                    <tbody id="table_body">
+                    
+                                    </tbody>
+                                </table>
+                            </section>
                         </div>
                     </body>
                     <script src="main.js"></script>
