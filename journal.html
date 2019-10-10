@@ -16,44 +16,26 @@
                                 </h1>
                     
                                 <div class="form-group">
-                                    <label for="note" class="col-sm-2 col-form-label">Ingrese nota:</label><br>
-                                    <input class="form-control" type="text" name="note" id="note_field">
+                                    <label for="title" class="col-sm-2 col-form-label">Título:</label><br>
+                                    <input class="form-control" type="text" name="title" id="title_field">
                                 </div>
-                    
+
                                 <div class="form-group">
                                     <label for="date">Seleccione la fecha:</label>
                                     <input type="date" name="date" class="custom-control" id="note_date">
                                 </div>
-                                
+
                                 <div class="form-group">
-                                    <div class="custom-control custom-switch">
-                                        <input type="checkbox" class="custom-control-input" id="late_switch">
-                                        <label class="custom-control-label" for="late_switch">Llegó tarde?</label>
-                                    </div>
-                                </div>
+                                    <label for="note" class="col-sm-2 col-form-label">Ingrese nota:</label><br>
+                                    <input class="form-control" type="text" name="note" id="note_field">
+                                </div>                    
                     
                                 <div class="form-group">
-                                    <button type="button" class="btn btn-danger" id="submit_btn" disabled>Ingresar</button>
+                                    <button type="button" class="btn btn-danger" id="submit_btn" disabled>Añadir</button>
                                 </div>
                             </div>
                     
                             <hr>
-                    
-                            <section>
-                                <table class="table table-hover">
-                                    <thead>
-                                        <tr class="table-dark">
-                                            <th scope="col">Carnet</th>
-                                            <th scope="col">Horario de laboratorio</th>
-                                            <th scope="col">Hora de ingreso</th>
-                                            <th scope="col">Tarde?</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody id="table_body">
-                    
-                                    </tbody>
-                                </table>
-                            </section>
                         </div>
                     </body>
                     <script src="main.js"></script>
