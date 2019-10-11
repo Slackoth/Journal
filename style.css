@@ -28,6 +28,10 @@ input{
     width: 450px;
 }
 
+#note_field{
+    height: 100px;
+}
+
 .form-group{
     margin: 0.5em 0;
 }
@@ -37,6 +41,10 @@ input{
     height: auto;
     background: #eeeeee;
     color: #1b1b1b;
+    text-align: center;
+}
+
+h1{
     text-align: center;
 }
 
