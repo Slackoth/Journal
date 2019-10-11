@@ -1,0 +1,45 @@
+<!-- 
+    Diego René Meléndez 00174118
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Journal: lite version </title>
+</head>
+<body>
+    <div class="container">
+        <h1>Journal</h1>
+
+        <div class="Form-group">
+            <label for="title" class="label_title">Titulo: </label> <br>    
+            <input type="text" name="title_input" id="title_field">
+        </div>
+
+        <div class="form-group">
+                <label for="date">Seleccione la fecha:</label>
+                <input type="date" name="date" class="custom-control" id="note_date">
+            </div>
+
+        <div class="form-group">
+                    <label for="note" class="col-sm-2 col-form-label">Ingrese nota:</label><br>
+                    <input class="note_area" type="text" name="note" id="note_field">
+        </div>  
+
+        <div class="form-group">
+                <button type="button" class="btn btn-danger" id="submit_btn" disabled>Añadir</button>
+        </div>    
+        <hr>
+        <div class="entradas">
+                <h2>ÚLTIMAS NOTAS</h2>
+                <!--
+                    Aqui se ponen las entradas mediante js!
+                -->
+        </div>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
