@@ -2,6 +2,7 @@ let title_field = document.querySelector("#title_field");
 let date_field = document.querySelector("#date_field");
 let note_field = document.querySelector("#note_field");
 let submit_btn = document.querySelector("#submit_btn");
+let table_head = document.querySelector("#table_body");
 
 //let table_body = document.querySelector("#table_body");
 //let carne_regex = new RegExp('[0-9]{8}'); //Expresion regular (solo puede del 0-9 y 8 digitos nada mas)

@@ -1,5 +1,6 @@
 <!-- 
     Diego René Meléndez 00174118
+    Luis Calderon perla 6
 -->
 
 <!DOCTYPE html>
@@ -22,7 +23,7 @@
 
         <div class="form-group">
                 <label for="date">Seleccione la fecha:</label>
-                <input type="date" name="date" class="custom-control" id="note_date">
+                <input type="date" name="date" class="custom-control" id="date_field">
         </div>
 
         <div class="form-group">
@@ -31,16 +32,26 @@
         </div>  
 
         <div class="form-group">
-                <button type="button" class="btn btn-danger" id="submit_btn" disabled>Añadir</button>
+                <button type="button" class="btn btn-danger" id="submit_btn" >Añadir</button>
         </div>    
         <hr>
         <div class="entradas">
-                <h2>ÚLTIMAS NOTAS</h2>
+                
                 <!--
                     Aqui se ponen las entradas mediante js!
                     falta la tabla
-                    Luis calderon perla es el culpable 
+                    Luis calderon perla es el culpable 6
                 -->
+                <table id="table">
+                    <thead>
+                        <tr>
+                            <th class="thead1"><h2>ÚLTIMAS NOTAS</h2></th>
+                        </tr>
+                    </thead>
+                    <tbody id="table_body">
+    
+                    </tbody>
+                </table>
         </div>
     </div>
 </body>
