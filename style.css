@@ -41,7 +41,6 @@ input{
     height: auto;
     background: #eeeeee;
     color: #1b1b1b;
-    text-align: center;
 }
 
 h1{
@@ -49,9 +48,16 @@ h1{
 }
 
 .table-active{
+    width: 750px;
+    height: auto;
     background: #e0e0e0;
     color: #1b1b1b;
     font-size: 1em;
+}
+
+#table_body *{
+    width: 750px;
+    text-align: center;
 }
 
 html{
