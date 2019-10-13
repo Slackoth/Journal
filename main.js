@@ -3,6 +3,7 @@ let date_field = document.querySelector("#date_field");
 let note_field = document.querySelector("#note_field");
 let submit_btn = document.querySelector("#submit_btn");
 let table_head = document.querySelector("#table_body");
+let arreglo_objeto = []
 
 //let table_body = document.querySelector("#table_body");
 //let carne_regex = new RegExp('[0-9]{8}'); //Expresion regular (solo puede del 0-9 y 8 digitos nada mas)
@@ -48,7 +49,13 @@ submit_btn.addEventListener("click",()=>{
     let date = date_field.value;
     let note = note_field.value;
     
+    let journal = {
+        titulo: title,
+        fecha : date,
+        nota: note
+    }
     addNote(title,date,note);
+    arreglo_objeto.push(journal)    
 });
 
 /*carne_campo.addEventListener("keyup", (event) => {
